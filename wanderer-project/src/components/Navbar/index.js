@@ -26,7 +26,7 @@ const Navbar = () => {
           <NavLink to="/hotels" activeStyle>
             Hotels
           </NavLink>
-          <NavLink to="/sign-in" activeStyle>
+          <NavLink to="/login" activeStyle>
             Sign In
           </NavLink>
           <NavLink to="/travelessentials" activeStyle>
@@ -34,7 +34,7 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/sign-in">Sign In</NavBtnLink>
+          <NavBtnLink to="/register">Sign Up</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

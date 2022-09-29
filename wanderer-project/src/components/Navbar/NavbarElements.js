@@ -10,8 +10,20 @@ export const Title = styled.h1`
 `;
 
 export const Nav = styled.nav`
-  background-color: #ffdee9;
-  background-image: linear-gradient(45deg, #0492aa 0%, #ffffff 100%);
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 15px;
   display: flex;
   justify-content: space-between;
@@ -22,7 +34,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;

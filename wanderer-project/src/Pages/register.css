@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.break {
+  width: 80%;
+  height: 1px;
+  background-color: #000;
+  margin: 15px 10%;
+  opacity: 0.4;
+}
+.register {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-between;
+}
+.register--img {
+  width: 40%;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.register--form {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 40%;
+  padding: 10px;
+}
+.register--form > h3 {
+  text-align: center;
+}
+
+label {
+  font-size: 10px;
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  max-width: 100%;
+  border: none;
+  padding: 5px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.register--btn {
+  display: block;
+  border: none;
+  padding: 10px;
+  max-width: 100%;
+  border-radius: 4px;
+  background-color: #105378;
+  color: #fff;
+  font-size: 12px;
+}
+.secondary--text {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.secondary--text > span {
+  color: #105378;
+  font-weight: bold;
+}

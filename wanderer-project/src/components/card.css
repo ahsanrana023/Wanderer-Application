@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: center;
+  padding: 10px;
+  transition: 0.3s all;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 4px 2px 1px rgb(0, 0, 0, 0.3);
+}
+.card--img {
+  width: 20%;
+  margin: 5px;
+  border-radius: 4px;
+  height: 200px;
+}
+.card--data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 15px;
+  justify-content: center;
+}
+.card--title,
+.card--location,
+.card--price {
+  margin: 0;
+}
+.card--location {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.card--price {
+  font-size: 12px;
+}
+span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card--description {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+.card--book {
+  outline: none;
+  margin-top: 15px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  width: 100px;
+  border: none;
+}
+.card--book:hover {
+  background-color: #fff;
+  color: #000;
+}
+.break {
+  width: 80%;
+  height: 1px;
+  background-color: #000;
+  opacity: 0.4;
+}

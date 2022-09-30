@@ -5,25 +5,12 @@ import styled from "styled-components";
 export const Title = styled.h1`
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
   font-family: "Roboto", sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 24px;
 `;
 
 export const Nav = styled.nav`
-  background: #2980b9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffffff,
-    #6dd5fa,
-    #2980b9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffffff,
-    #6dd5fa,
-    #2980b9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: #000;
   height: 15px;
   display: flex;
   justify-content: space-between;
@@ -34,7 +21,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: #000;
+  color: #fff;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -42,7 +29,7 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #000;
+    color: #6dd5fa;
     font-weight: bold;
   }
 `;
@@ -90,9 +77,9 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #000;
+  background: #6dd5fa;
   padding: 10px 22px;
-  color: #fff;
+  color: #000;
   outline: none;
   border: none;
   cursor: pointer;

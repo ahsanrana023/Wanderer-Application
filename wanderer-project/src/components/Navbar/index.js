@@ -26,11 +26,15 @@ const Navbar = () => {
           <NavLink to="/hotels" activeStyle>
             Hotels
           </NavLink>
+
+          <NavLink to="/travelessentials" activeStyle>
+            Travel Essentials
+          </NavLink>
           <NavLink to="/login" activeStyle>
             Sign In
           </NavLink>
-          <NavLink to="/travelessentials" activeStyle>
-            Travel Essentials
+          <NavLink to="/smart" activeStyle>
+            Tour Recomendation
           </NavLink>
         </NavMenu>
         <NavBtn>

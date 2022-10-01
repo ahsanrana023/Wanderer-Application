@@ -10,7 +10,7 @@ export const Title = styled.h1`
 `;
 
 export const Nav = styled.nav`
-  background-color: #000;
+  background-color: #222;
   height: 15px;
   display: flex;
   justify-content: space-between;

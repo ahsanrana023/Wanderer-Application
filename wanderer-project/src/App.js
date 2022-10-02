@@ -11,7 +11,7 @@ import Register from "./Pages/Register";
 import TravelEssentials from "./Pages/TravelEssentials";
 import Smart from "./Pages/Smart";
 import Navbar from "./components/Navbar";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
@@ -29,6 +29,7 @@ function App() {
 
         <Route path="*" element={<Error />}></Route>
       </Routes>
+      <Footer />
     </Router>
   );
 }

@@ -16,9 +16,9 @@ export default function Guides() {
     );
   });
   return (
-    <div className="guide">
-      <p className="guidedata">Total Guides Found: {data.length}</p>
-      {guides}
+    <div>
+      <p className="guides--data">Total Guides Found: {data.length}</p>
+      <div className="guide">{guides}</div>
     </div>
   );
 }

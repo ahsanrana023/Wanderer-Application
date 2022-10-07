@@ -13,7 +13,7 @@ export default [
     location: "Islamabad",
     email: "sylvia.rice@example.com",
     phone: "(977) 915-0667",
-    isContact: true,
+    isContact: false,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export default [
     location: "Islamabad",
     email: "sylvia.rice@example.com",
     phone: "(977) 915-0667",
-    isContact: true,
+    isContact: false,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export default [
     location: "Islamabad",
     email: "sylvia.rice@example.com",
     phone: "(977) 915-0667",
-    isContact: true,
+    isContact: false,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export default [
     location: "Islamabad",
     email: "sylvia.rice@example.com",
     phone: "(977) 915-0667",
-    isContact: true,
+    isContact: false,
   },
   {
     id: 6,
@@ -45,6 +45,6 @@ export default [
     location: "Islamabad",
     email: "sylvia.rice@example.com",
     phone: "(977) 915-0667",
-    isContact: true,
+    isContact: false,
   },
 ];

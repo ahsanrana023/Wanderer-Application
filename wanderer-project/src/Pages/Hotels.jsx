@@ -1,7 +1,7 @@
 import React from "react";
 import hoteldata from "../hoteldata.js";
 import Card from "../components/Card.js";
-
+import "./hotels.css";
 export default function Hotels() {
   console.log(hoteldata);
   const cards = hoteldata.map((item) => {
@@ -16,5 +16,5 @@ export default function Hotels() {
       />
     );
   });
-  return <div>{cards}</div>;
+  return <div className="hotels">{cards}</div>;
 }

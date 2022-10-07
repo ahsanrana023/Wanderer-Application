@@ -6,7 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-.card {
+.hotelcard {
   display: flex;
   width: 80%;
   margin-left: 10%;
@@ -21,13 +21,13 @@ body {
   transform: scale(1.1);
   box-shadow: 2px 4px 2px 1px rgb(0, 0, 0, 0.3);
 }
-.card--img {
+.hotelcard--img {
   width: 20%;
   margin: 5px;
   border-radius: 4px;
   height: 200px;
 }
-.card--data {
+.hotelcard--data {
   display: flex;
   flex-direction: column;
   margin-top: 15px;

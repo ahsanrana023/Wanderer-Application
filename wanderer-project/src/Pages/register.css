@@ -29,6 +29,8 @@ body {
   width: 80%;
   margin-left: 10%;
   justify-content: space-between;
+  height: 100vh;
+  align-items: center;
 }
 .register--img {
   width: 30%;
@@ -42,8 +44,9 @@ body {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 40%;
+  width: 30%;
   padding: 10px;
+  height: 60%;
 }
 .register--form > h3 {
   text-align: center;

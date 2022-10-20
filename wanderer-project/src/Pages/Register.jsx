@@ -23,7 +23,7 @@ export default function Register() {
     <div className="register">
       <img src={RegisterImage} className="register--img" alt="Register" />
       <div className="register--form">
-        <h3>Register</h3>
+        <h3 style={{ marginBottom: "35px", marginTop: "20px" }}>Register</h3>
         <form>
           <label>Name</label>
           <input

@@ -16,6 +16,10 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 30px;
   z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   /* Third Nav */
   /* justify-content: flex-start; */
 `;

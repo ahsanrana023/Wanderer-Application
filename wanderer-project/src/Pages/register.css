@@ -57,15 +57,17 @@ label {
   opacity: 0.8;
   display: block;
   margin-bottom: 5px;
+  margin-left: 20%;
 }
 
 input {
-  max-width: 100%;
+  width: 60%;
   border: none;
-  padding: 5px;
+  padding: 10px;
   opacity: 0.8;
   margin-bottom: 10px;
   border-radius: 4px;
+  margin-left: 20%;
 }
 .register--btn {
   display: block;
@@ -76,10 +78,12 @@ input {
   background-color: #105378;
   color: #fff;
   font-size: 12px;
+  margin-left: 20%;
 }
 .secondary--text {
   font-size: 10px;
   margin-top: 10px;
+  margin-left: 20%;
 }
 .secondary--text > span {
   color: #105378;

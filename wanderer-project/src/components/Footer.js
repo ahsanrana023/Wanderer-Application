@@ -9,7 +9,7 @@ export default function Footer() {
         <p>We Provide you the best Travel Experiences.</p>
       </div>
       <div className="footer--services">
-        <h4>Services</h4>
+        <h2>Services</h2>
         <ul className="services--list">
           <li>Hotels</li>
           <li>Guides</li>

@@ -35,14 +35,15 @@ body {
 }
 button {
   padding: 10px;
-  background-color: #e84393;
+  background-color: #1c92d2;
   color: #fff;
   border: none;
   transition: all 0.3s;
+  border-radius: 4px;
 }
 button:hover {
   background-color: #fff;
-  color: #e84393;
+  color: #1c92d2;
 }
 p {
   font-size: 12px;

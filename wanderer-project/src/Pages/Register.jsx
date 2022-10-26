@@ -24,7 +24,7 @@ export default function Register() {
       <img src={RegisterImage} className="register--img" alt="Register" />
       <div className="register--form">
         <h3 style={{ marginBottom: "35px", marginTop: "20px" }}>Register</h3>
-        <form>
+        <form className="register-form-fields">
           <label>Name</label>
           <input
             type="text"

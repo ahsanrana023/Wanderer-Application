@@ -60,7 +60,7 @@ label {
   margin-left: 20%;
 }
 
-input {
+.register-form-fields > input {
   width: 60%;
   border: none;
   padding: 10px;

@@ -18,7 +18,6 @@ export default function Login() {
   }
   return (
     <div className="login">
-      <img src={LoginImage} className="login--img" alt="Login" />
       <form className="login--form">
         <h4>Login</h4>
         <input
@@ -43,3 +42,4 @@ export default function Login() {
     </div>
   );
 }
+//<img src={LoginImage} className="login--img" alt="Login" />

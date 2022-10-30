@@ -1,0 +1,7 @@
+.product--row {
+  display: flex;
+  background-color: #fff;
+
+  padding: 50px;
+  flex-wrap: wrap;
+}

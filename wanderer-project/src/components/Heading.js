@@ -3,7 +3,7 @@ import "./heading.css";
 export default function Heading(props) {
   return (
     <div>
-      <h2>{props.title}</h2>
+      <h1 className="heading">{props.title}</h1>
     </div>
   );
 }

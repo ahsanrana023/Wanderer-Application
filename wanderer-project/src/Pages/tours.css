@@ -1,7 +1,10 @@
 .tours {
   background-color: #fff;
-  padding: 50px;
   display: flex;
-  margin-top: 50px;
+
   flex-wrap: wrap;
+}
+.tour-page {
+  background-color: #fff;
+  padding: 50px;
 }

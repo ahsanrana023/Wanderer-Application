@@ -20,8 +20,8 @@ export default function Tours() {
     );
   });
   return (
-    <div>
-      <div className="heading"></div>
+    <div className="tour-page">
+      <Heading title="What we have explored for you" />
       <div className="tours">{tours}</div>
     </div>
   );

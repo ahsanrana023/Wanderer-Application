@@ -10,6 +10,7 @@ export default function Header(props) {
           A team of devoted and experienced tourism profesiionals
           <br /> will provide you with the best advice and tips.
         </p>
+        <button>View Tours</button>
       </div>
       <img src={Headerimg} className="header--img" alt="Header" />
     </div>

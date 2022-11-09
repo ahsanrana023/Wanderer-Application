@@ -24,6 +24,8 @@ body {
 }
 .product--card > h2 {
   margin: 0;
+  margin-top: 15px;
+  color: #1c92d2;
 }
 .product--card > h4 {
   margin: 0;

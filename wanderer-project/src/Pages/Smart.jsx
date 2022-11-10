@@ -53,7 +53,7 @@ export default function Smart() {
           onChange={handleChange}
         ></textarea>
         <br />
-        <button>Recomend Tour</button>
+        <button>Recommend Tour</button>
       </form>
     </div>
   );

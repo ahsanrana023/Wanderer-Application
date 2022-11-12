@@ -76,6 +76,9 @@ export default function Hotels() {
           </Link>
         </div>
       </div>
+      <h1 style={{ color: "#2869b6", textAlign: "center", marginTop: "35px" }}>
+        Top Hotels Found: {hoteldata.length}
+      </h1>
       <div>{cards}</div>
     </div>
   );

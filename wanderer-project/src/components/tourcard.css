@@ -9,6 +9,7 @@ body {
   margin: 35px;
   padding-bottom: 15px;
   transition: all 0.3s;
+  height: 400px;
 }
 .tourcard:hover {
   transform: scale(1.1);

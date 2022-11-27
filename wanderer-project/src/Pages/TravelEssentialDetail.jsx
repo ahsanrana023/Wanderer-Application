@@ -3,7 +3,7 @@ import productdata from "../productdata";
 import { useParams } from "react-router-dom";
 import productimg from "../images/Nike-Shoe.png";
 const TravelEssentialDetail = () => {
-  const { productid } = useParams();
+  const params = useParams();
 
   return (
     <div style={{ backgroundColor: "#fff", padding: "150px" }}>

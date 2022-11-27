@@ -43,7 +43,12 @@ function Home() {
           }}
         />
         <button
-          style={{ backgroundColor: "#000", color: "#fff", marginLeft: "2px" }}
+          style={{
+            backgroundColor: "#000",
+            color: "#fff",
+            marginLeft: "2px",
+            cursor: "pointer",
+          }}
         >
           Subscribe
         </button>

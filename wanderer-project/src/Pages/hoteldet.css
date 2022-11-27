@@ -1,0 +1,12 @@
+.title-detail {
+  color: #498fc4;
+  margin-bottom: 20px;
+}
+.detail-btn {
+  color: #eee;
+  transition: all 0.3s;
+}
+.detail-btn:hover {
+  background-color: #0e80d7;
+  color: #eee;
+}

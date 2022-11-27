@@ -1,6 +1,7 @@
 import React from "react";
 import "./productcard.css";
 import Shoe from "../../src/images/Nike-Shoe.png";
+import { Link } from "react-router-dom";
 export default function ProductCard(props) {
   return (
     <div>

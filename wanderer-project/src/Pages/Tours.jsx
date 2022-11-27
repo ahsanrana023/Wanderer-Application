@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 import "./tours.css";
 
 export default function Tours() {
-  console.log(tourdata);
-  const disToursarray = tourdata.filter((item) => item.price < 100);
+  const disToursarray = tourdata.filter((tor) => tor.price < 100);
   console.log(disToursarray);
   const disTour = disToursarray.map((item) => {
     return (
       <TourCard
-        key={item.key}
+        key={item.id}
+        id={item.id}
         name={item.name}
         description={item.description}
         price={item.price}

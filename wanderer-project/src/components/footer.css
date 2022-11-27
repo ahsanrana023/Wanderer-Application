@@ -53,3 +53,10 @@ p {
   padding: 10px;
   width: 100%;
 }
+.footer--links {
+  color: #fff;
+  text-decoration: none;
+}
+.footer--links:hover {
+  color: rgb(220, 220, 220);
+}

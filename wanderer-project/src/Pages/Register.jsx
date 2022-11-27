@@ -8,7 +8,7 @@ export default function Register() {
     password: "",
     cpassword: "",
   });
-  console.log(formData);
+
   function handleChange(e) {
     e.persist();
     setFormData((prevData) => {

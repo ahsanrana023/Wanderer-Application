@@ -25,6 +25,7 @@ export default function Hotels() {
     return (
       <Card
         key={item.id}
+        id={item.id}
         location={item.location}
         name={item.name}
         image={item.image}

@@ -7,7 +7,7 @@ export default function Smart() {
     residenceType: "",
     description: "",
   });
-  console.log(smartData);
+
   function handleChange(e) {
     e.persist();
     setSmartData((prevData) => {

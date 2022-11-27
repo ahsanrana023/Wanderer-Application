@@ -6,7 +6,7 @@ export default function Login() {
     email: "",
     password: "",
   });
-  console.log(loginData);
+
   function handleChange(e) {
     e.persist();
     setLoginData((prevData) => {

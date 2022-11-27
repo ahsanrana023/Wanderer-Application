@@ -7,7 +7,8 @@ function TravelEssentials() {
   const products = productdata.map((item) => {
     return (
       <ProductCard
-        key={item.key}
+        key={item.id}
+        id={item.id}
         title={item.title}
         description={item.description}
         price={item.price}

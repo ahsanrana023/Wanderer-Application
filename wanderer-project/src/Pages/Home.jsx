@@ -9,7 +9,7 @@ function Home() {
       <Header title="Discover New Destinations" />
       <About />
       <CustomerReviews />
-      <div style={{ backgroundColor: "#00a8ff", padding: "60px" }}>
+      <div style={{ backgroundColor: "#00a8ff", padding: "80px" }}>
         <h2
           style={{
             textAlign: "center",

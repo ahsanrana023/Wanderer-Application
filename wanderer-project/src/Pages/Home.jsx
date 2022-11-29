@@ -2,7 +2,7 @@ import React from "react";
 import About from "../components/About";
 import CustomerReviews from "../components/CustomerReviews";
 import Header from "../components/Header";
-
+import Contact from "../components/Contact";
 function Home() {
   return (
     <div>
@@ -53,6 +53,7 @@ function Home() {
           Subscribe
         </button>
       </div>
+      <Contact />
     </div>
   );
 }

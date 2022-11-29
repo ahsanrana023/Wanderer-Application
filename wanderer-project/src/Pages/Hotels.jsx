@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import "./hotels.css";
 export default function Hotels() {
   const [formData, setFormData] = React.useState({
-    email: "",
-    password: "",
+    checkin: "",
+    checkout: "",
     cpassword: "",
   });
   console.log(formData);
@@ -45,7 +45,7 @@ export default function Hotels() {
               className="fieldbox"
               type="date"
               placeholder="Email address"
-              name="email"
+              name="checkin"
               onChange={handleChange}
               value={formData.email}
             />
@@ -56,7 +56,7 @@ export default function Hotels() {
               className="fieldbox"
               type="date"
               placeholder="Enter Password"
-              name="password"
+              name="checkout"
               onChange={handleChange}
               value={formData.password}
             />

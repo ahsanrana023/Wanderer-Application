@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    name: "Alicia River",
+    name: "Ashar Akram",
     location: "Lahore",
     email: "alicia.rivera@example.com",
     phone: "(459) 239-2229",
@@ -9,7 +9,7 @@ export default [
   },
   {
     id: 2,
-    name: "Sylvia Rice",
+    name: "Mohsin Nawaz",
     location: "Islamabad",
     email: "sylvia.rice@example.com",
     phone: "(977) 915-0667",
@@ -17,7 +17,7 @@ export default [
   },
   {
     id: 3,
-    name: "Sylvia Rice",
+    name: "Ahsan Rana",
     location: "Islamabad",
     email: "sylvia.rice@example.com",
     phone: "(977) 915-0667",
@@ -25,7 +25,7 @@ export default [
   },
   {
     id: 4,
-    name: "Sylvia Rice",
+    name: "Zameet khalid",
     location: "Islamabad",
     email: "sylvia.rice@example.com",
     phone: "(977) 915-0667",
@@ -33,17 +33,17 @@ export default [
   },
   {
     id: 5,
-    name: "Sylvia Rice",
+    name: "Anas Akram",
     location: "Islamabad",
-    email: "sylvia.rice@example.com",
+    email: "anasakram@example.com",
     phone: "(977) 915-0667",
     isContact: false,
   },
   {
     id: 6,
-    name: "Sylvia Rice",
-    location: "Islamabad",
-    email: "sylvia.rice@example.com",
+    name: "Muhammad Ali",
+    location: "Karachi",
+    email: "ali@example.com",
     phone: "(977) 915-0667",
     isContact: false,
   },

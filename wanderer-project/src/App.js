@@ -15,7 +15,18 @@ import Footer from "./components/Footer";
 import HotelDetail from "./Pages/HotelDetail";
 import TravelEssentialDetail from "./Pages/TravelEssentialDetail";
 import TourDetail from "./Pages/TourDetail";
+import { useState } from "react";
+import React from "react";
 function App() {
+  const [latitude, setLatitude] = useState("");
+  const [longitude, setLongitude] = useState("");
+  React.useEffect(() => {
+    navigator.geolocation.getCurrentPosition((position) => {
+      setLatitude(position.coords.latitude);
+      setLongitude(position.coords.longitude);
+      alert(`${latitude} - ${longitude}`);
+    });
+  }, []);
   return (
     <Router>
       <Navbar />

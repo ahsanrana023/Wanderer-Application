@@ -47,7 +47,7 @@ export default function Hotels() {
               placeholder="Email address"
               name="checkin"
               onChange={handleChange}
-              value={formData.email}
+              value={formData.checkin}
             />
           </div>
           <div>
@@ -58,7 +58,7 @@ export default function Hotels() {
               placeholder="Enter Password"
               name="checkout"
               onChange={handleChange}
-              value={formData.password}
+              value={formData.checkout}
             />
           </div>
           <div>

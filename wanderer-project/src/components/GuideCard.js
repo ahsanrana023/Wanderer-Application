@@ -20,7 +20,7 @@ export default function GuideCard(props) {
         </div>
         <div className="guidecard--data">
           <h3>{guide.name}</h3>
-          <p>Location: {guide.location}</p>
+          <p style={{ fontWeight: "bold" }}>Location: {guide.location}</p>
           {guide.isContact === true && <p>{guide.email}</p>}
           {guide.isContact === true && <p>{guide.phone}</p>}
         </div>

@@ -27,7 +27,7 @@ const TourDetail = () => {
           style={{ padding: "15px", cursor: "pointer" }}
           className="detail-btn"
         >
-          Book Hotel
+          Book Tour
         </button>
       </div>
     </div>

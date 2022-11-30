@@ -14,7 +14,8 @@ const TravelEssentialDetail = () => {
         <h3 style={{ color: "#498fc4", fontSize: "32px", marginTop: "20px" }}>
           Nike Shoe
         </h3>
-        <h4 style={{ color: "#498fc4", fontSize: "22px" }}>100$</h4>
+        <hr style={{ width: "40%", marginBottom: "15px" }} />
+        <h4 style={{ color: "#498fc4", fontSize: "22px" }}>Price: 100$</h4>
         <p
           style={{ marginBottom: "15px", fontSize: "16px", lineHeight: "26px" }}
         >
@@ -24,7 +25,18 @@ const TravelEssentialDetail = () => {
           definitely reap the benefits for a long time.
         </p>
         <button
-          style={{ padding: "15px", cursor: "pointer" }}
+          className="detail-btn"
+          style={{
+            padding: "15px",
+            cursor: "pointer",
+            width: "200px",
+            marginRight: "15px",
+          }}
+        >
+          Buy Now
+        </button>
+        <button
+          style={{ padding: "15px", cursor: "pointer", width: "200px" }}
           className="detail-btn"
         >
           Reserve the Product

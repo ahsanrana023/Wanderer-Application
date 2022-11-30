@@ -14,6 +14,9 @@ export default function ProductCard(props) {
         <Link to={`/travelessentials/${props.id}`} className="reserve--btn">
           Reserve The Product
         </Link>
+        <Link to={`/travelessentials/${props.id}`} className="book--btn">
+          Buy Now
+        </Link>
       </div>
     </div>
   );
